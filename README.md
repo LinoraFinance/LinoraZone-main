@@ -1,6 +1,7 @@
 # [QuantZone] Market Making Strategy for linora Perpetuals
 
 ### Introduction
+Update
 
 This algorithm implements a market making strategy for perpetual instruments on the linora exchange. It listens to an external exchange (Binance) for spot prices and quotes around that value, with adjustments for:
 
