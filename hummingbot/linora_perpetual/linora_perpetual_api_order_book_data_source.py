@@ -4,6 +4,7 @@ from collections import defaultdict
 from decimal import Decimal
 from typing import TYPE_CHECKING, Any, Dict, List, Mapping, Optional
 
+
 import hummingbot.connector.derivative.linora_perpetual.linora_perpetual_constants as CONSTANTS
 import hummingbot.connector.derivative.linora_perpetual.linora_perpetual_web_utils as web_utils
 from hummingbot.core.data_type.common import TradeType
