@@ -62,6 +62,7 @@ class PortfolioMarginState:
 
 
 class RiskManager:
+    
     """
     A class for managing risk in trading operations.
 
