@@ -48,6 +48,7 @@ When a market event occurs, the strategy processes it as follows:
       - Ensures maintained orders meet minimum profitability criteria.
 
 6. Proposal Execution:
+
    - Places new orders based on the final proposal (`execute_orders_proposal`).
 
 This process ensures that the strategy continuously adapts to market conditions, maintains risk parameters, and provides liquidity efficiently.
