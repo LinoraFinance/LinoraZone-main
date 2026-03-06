@@ -21,6 +21,7 @@ Key contracts loaded automatically via `load_contracts()`:
 - ParaClear contract
 - USDC token contract
 - Oracle contract
+- Cfg
 
 ## Data Storage
 - Data stored in Parquet format for efficient querying
