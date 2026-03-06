@@ -99,6 +99,7 @@ class PerpPricer(BasePricer):
             max_val (Decimal): The maximum value.
 
         Returns:
+        
             Decimal: The capped value.
         """
         return max(min(val, max_val), min_val)
