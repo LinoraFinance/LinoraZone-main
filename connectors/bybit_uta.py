@@ -4,6 +4,7 @@ This module implements a connector for the Bybit UTA exchange.
 It provides functionality to interact with the Bybit UTA API, including
 market data subscriptions and order book management.
 
+
 Classes:
     BybitUTAConnector: Main connector class for Bybit UTA exchange.
 """
