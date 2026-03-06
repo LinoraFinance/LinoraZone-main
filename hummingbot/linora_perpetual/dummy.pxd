@@ -1,2 +1,3 @@
 cdef class dummy():
     pass
+'
