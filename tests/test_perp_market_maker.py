@@ -68,6 +68,7 @@ class MockOrderbook:
 
     def get_mid(self):
         return D('100')
+        
 
 class MockTradingRules:
     min_price_increment = D('0.1')
