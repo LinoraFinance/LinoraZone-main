@@ -58,6 +58,7 @@ class StarkwareETHProxyCheck(ProxyCheck):
             regex_err_msg=r"(is not declared)",
         )
 
+    
     @staticmethod
     async def get_implementation(
         address: Address, client: Client, get_class_func: Callable, regex_err_msg: str
