@@ -52,6 +52,7 @@ class PerpetualMarginParams:
     imf_factor: int
     mmf_factor: int
     imf_shift: int
+    
 
     def to_dict(self):
         d = asdict(self)
