@@ -44,7 +44,6 @@ if TYPE_CHECKING:
 
 bpm_logger = None
 
-
 POS_SIDE_MAP = {
     "LONG": PositionSide.LONG,
     "SHORT": PositionSide.SHORT
