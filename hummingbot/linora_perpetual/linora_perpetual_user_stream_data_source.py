@@ -80,6 +80,7 @@ class linoraPerpetualUserStreamDataSource(UserStreamTrackerDataSource):
 
         return ws
 
+    
     async def _subscribe_channels(self, websocket_assistant: WSAssistant):
         """
         Subscribes to order events.
