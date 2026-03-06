@@ -15,6 +15,7 @@ class SyncRateLimiter:
         self.tokens = rate_limit
         self.updated_at = time.monotonic()
         self.lock = Lock()
+        
 
     def acquire(self):
         """
