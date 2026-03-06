@@ -79,6 +79,7 @@ class Order:
         self.exchange_order_id = None
         self.status = 'CREATED'
         self.created_ts_ns = time.time_ns()
+        
 
     def __repr__(self):
         return f"[{self.symbol}|{self.order_type}] {self.side} {self.amount}@{self.price} ({self.status})"
