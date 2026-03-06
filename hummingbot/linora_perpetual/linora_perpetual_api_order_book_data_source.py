@@ -19,6 +19,7 @@ from hummingbot.logger import HummingbotLogger
 if TYPE_CHECKING:
     from hummingbot.connector.derivative.linora_perpetual.linora_perpetual_derivative import (
         linoraPerpetualDerivative,
+    
     )
 
 
