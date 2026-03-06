@@ -47,6 +47,7 @@ async def run_command(*args: str) -> str:
         stdout=asyncio.subprocess.PIPE)
     stdout, stderr = await process.communicate()
     return stdout.decode().strip()
+    
 
 
 def call_sync(coro: Coroutine,
