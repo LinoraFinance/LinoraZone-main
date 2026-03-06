@@ -16,6 +16,7 @@ def load_config(file_path: str, raise_error: bool=True) -> dict:
 
     Returns:
         dict: The loaded configuration.
+        
     """
     try:
         with open(file_path, 'r') as file:
