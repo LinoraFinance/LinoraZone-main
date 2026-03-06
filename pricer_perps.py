@@ -25,8 +25,7 @@ class PerpPricer(BasePricer):
         logger: A logging object for debug and error messages.
 
     """
-
-    def __init__(self, strategy):
+        def __init__(self, strategy):
         super().__init__(strategy)
         self.logger = structlog.get_logger(self.__class__.__name__)
 
