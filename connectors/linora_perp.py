@@ -4,6 +4,7 @@ This module implements a connector for the linora perpetual exchange.
 It provides functionality to interact with the linora API, including
 order management, market data subscriptions, and account information.
 
+
 Classes:
     linoraPerpConnector: Main connector class for linora perpetual exchange.
 """
