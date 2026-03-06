@@ -46,6 +46,7 @@ def retry_fetch(func: Callable) -> Callable:
     def wrapper(self, *args, **kwargs):
         return func(self, *args, **kwargs)
     return wrapper
+    
 
 # Patch linoraApiClient fetch methods with retries
 linoraApiClient.fetch_trades = retry_fetch(linoraApiClient.fetch_trades)
