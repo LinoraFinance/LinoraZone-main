@@ -48,6 +48,7 @@ class OptionPricer(BasePricer):
         spot_price = self.strategy._smoothen_spot_price.value
         strike_price = self.strike_price
         
+        
         # time_to_expiry = self.time_to_expiry
         # risk_free_rate = D(0.01)
         # is_call = self.option_type == 'call'
