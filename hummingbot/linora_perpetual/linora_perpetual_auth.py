@@ -36,6 +36,7 @@ class linoraPerpetualAuth(AuthBase):
         return self._linora_account
 
     @property
+    
     def linora_rest_client(self):
         if self._rest_api_client is None:
 
