@@ -43,6 +43,7 @@ USER_TRADES_ENDPOINT_NAME = "fills.{market}"
 USER_POSITION_ENDPOINT_NAME = "positions"
 
 # Order Statuses
+
 ORDER_STATE = {
     "OPEN": OrderState.OPEN,
     "UNTRIGGERED": OrderState.OPEN,
