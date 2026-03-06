@@ -55,6 +55,7 @@ class MetricsMessage:
 
     def __str__(self):
         return self.to_json()
+        
 
 class MetricsPublisher:
     """
