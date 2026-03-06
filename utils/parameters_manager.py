@@ -43,6 +43,7 @@ class ParamsManager:
         self.params = {
             param.tag: param for param in params
         }
+        
 
         self.config = config
         # Casting and Overriding default from ENV
