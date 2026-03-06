@@ -32,6 +32,7 @@ class linoraPerpetualConfigMap(BaseConnectorConfigMap):
     connector: str = Field(default="linora_perpetual", client_data=None)
     linora_perpetual_l1_address: SecretStr = Field(
         default=...,
+        
         client_data=ClientFieldData(
             prompt=lambda cm: "Enter your L1 Address",
             is_secure=True,
